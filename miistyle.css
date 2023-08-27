@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: rgb(201, 238, 219);
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  .rooms {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  .room {
+    border: 1px solid #ca1c1c;
+    padding: 10px;
+    margin: 10px;
+  }
+  buttons{
+    position:fixed;
+    bottom: 10px;
+    right: 05px;
+    display: flex;
+    flex-direction: column;
+  }
+  #shuffleButton,
+#downloadButton {
+    background-color: #007bff;
+    color: #141401;
+    border: none;
+    padding: 15px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.room-number {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 8px;
+    background-color: #4285F4;
+    color: #800404;
+    padding: 9px;
+    text-align: center;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+#downloadShuffledButton {
+    background-color: #4caf6d;
+    border: none;
+    color: rgb(5, 5, 1);
+    padding: 15px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+  
